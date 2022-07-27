@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+    <title></title>
+    <meta name="description" content="Our first page">
+    <meta name="keywords" content="html tutorial template">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap" rel="stylesheet">
+    
+
+</head>
+
+
+<body class="body">
+    <!-- <h1 id="date-time"></h1> -->
+    <div class="tmu-name-container">
+    <img class='buttons-1' src="./buttons.png">
+    <h1 class="tmu-name"><span class="text-span">Toronto Metropolitan University</span></h1>
+    </div>
+    
+    
+    
+    <div class="twitter-container">
+        <a class="twitter-timeline twitter-item" data-width="637" data-height="680" data-theme="light"
+            href="https://twitter.com/TorontoMet?ref_src=twsrc%5Etfw">Tweets by TorontoMet</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a class="twitter-timeline twitter-item" data-width="637" data-height="680"
+            href="https://twitter.com/TMU_CS?ref_src=twsrc%5Etfw">Tweets by TMU_CS</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a class="twitter-timeline twitter-item" data-width="637" data-height="680"
+            href="https://twitter.com/CompSciGradTMU?ref_src=twsrc%5Etfw">Tweets by TMU_CS</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="bottom-section">
+        <iframe
+            src="https://calendar.google.com/calendar/embed?showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&mode=AGENDA&height=370&wkst=1&hl=en&bgcolor=%23FFFFFF&src=ryerson.ca_dnqcaoreqp5ftc73951n0q1nkk%40group.calendar.google.com&color=%231c5a98&ctz=America%2FToronto"
+            width="1200px" height="" class="calender"></iframe>
+        <div class="contact-information">
+            <img class='buttons-2' src="./buttons.png">
+            <h1 class="test-col">Technical Support: request@cs.ryerson.ca</h1>
+            <h1>General Support: ask@cs.ryerson.ca</h1>
+            <h1>Program Contact: enquiries@cs.ryerson.ca</h1>
+        </div>
+    </div>
+
+   
+
+
+    <script>
+        function refreshTime() {
+        const timeDisplay = document.getElementById("date-time");
+        const dateString = new Date().toLocaleString();
+        const formattedString = dateString.replace(", ", " - ");
+        timeDisplay.textContent = formattedString;
+        }
+        setInterval(refreshTime, 1000);
+        
+    </script>
+</body>
+
+</html>

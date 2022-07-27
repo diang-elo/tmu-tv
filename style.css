@@ -1,0 +1,104 @@
+.body{
+    background-color: #F5F5F5;
+}
+
+.tmu-name{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    /* border: 2px solid #000000; */
+    /* border-radius: 35px; */
+    padding: 15px 0px;
+    margin: 15px 0px;
+
+    background-color: white;
+    border: 1px solid ;
+    box-shadow: 10px 10px #888888;
+    color: rgb(0, 0, 0);
+}
+
+.text-span{
+   
+    /* text-shadow: 5px 2px #004c9b,7px 7px #ffdc00 ; */
+    text-shadow: 5px 2px #004c9b,-5px -2px #ffdc00;
+    
+    
+   
+}
+
+.tmu-name::before,
+.tmu-name::after{
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid black;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+}
+#date-time{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.twitter-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    /* border: 2px solid #000000;
+    border-radius: 5px; */
+    
+    /* border: 1px solid ;
+    box-shadow: 10px 10px #888888; */
+    border: 1px solid ;
+    
+}
+
+.calender{
+    border: 1px solid ;
+    box-shadow: 10px 10px #888888;
+}
+
+.bottom-section {
+    display: flex;
+    
+
+}
+
+.contact-information{
+    /* background-color: #004c9b;
+    color: white;
+    flex: 1;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-left: 20px;
+    border: 1px solid ;
+    box-shadow: 10px 10px #ffdc00; */
+
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    flex: 1;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-left: 20px;
+    border: 1px solid ;
+    box-shadow: 10px 10px #888888;
+    position: relative;
+}
+
+.buttons-1{
+    z-index: 100;
+    height: 40px;
+    position: fixed;
+}
+.buttons-2{
+    z-index: 100;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
