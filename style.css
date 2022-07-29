@@ -2,6 +2,7 @@
     background-color: #F5F5F5;
 }
 
+
 .tmu-name{
     text-align: center;
     font-size: 4rem;
@@ -15,12 +16,15 @@
     border: 1px solid ;
     box-shadow: 10px 10px #888888;
     color: rgb(0, 0, 0);
+
+  
 }
 
 .text-span{
    
     /* text-shadow: 5px 2px #004c9b,7px 7px #ffdc00 ; */
     text-shadow: 5px 2px #004c9b,-5px -2px #ffdc00;
+    
     
     
    
@@ -63,8 +67,6 @@
 
 .bottom-section {
     display: flex;
-    
-
 }
 
 .contact-information{
@@ -93,7 +95,7 @@
 .buttons-1{
     z-index: 100;
     height: 40px;
-    position: fixed;
+    position: absolute;
 }
 .buttons-2{
     z-index: 100;
@@ -101,4 +103,22 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.windows-bar{
+    /* background-color: rgba(255, 255, 255, .15);   */
+    background: rgb(135,206,235);
+    background: radial-gradient(circle, rgba(135,206,235,1) 0%, rgba(255,255,255,1) 100%);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 40px;
+}
+.apple-bar{
+   
+    background: radial-gradient(circle, rgb(235, 203, 135) 0%, rgba(255,255,255,1) 100%);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 20px;
+    
+    
 }
