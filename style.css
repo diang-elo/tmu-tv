@@ -40,8 +40,13 @@
     transform: translateY(-1rem);
 }
 #date-time{
-    text-align: center;
+    position: absolute;
     font-size: 1.5rem;
+    top:0;
+    right: 0;
+    margin: 0;
+    padding-top: 5px;
+    padding-right: 15px;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
