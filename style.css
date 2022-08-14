@@ -50,18 +50,42 @@
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+.windows-xp-bar{
+  /* background-color: rgba(255, 255, 255, .15);   */
+  background: #245DDA;
+  /* background: radial-gradient(circle, #245DDA 0%, rgba(255,255,255,1) 100%); */
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 40px;
+}
+
+.labs-container{
+    margin: 20px 0px;
+    border: 1px solid #245DDA;
+    position: relative;
+}
+
+.calander-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .twitter-container {
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0px;
+    
+    padding-bottom: 20px;
+    /* margin: 20px 0px; */
     /* border: 2px solid #000000;
     border-radius: 5px; */
     
     /* border: 1px solid ;
     box-shadow: 10px 10px #888888; */
-    border: 1px solid ;
+    /* border: 1px solid; */
+    /* padding-top: 30px; */
     
 }
 
@@ -110,6 +134,16 @@
     position: absolute;
     top: 0;
     right: 0;
+    padding-right: 15px;
+}
+
+.buttons-3{
+    z-index: 100;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 5px;
     padding-right: 15px;
 }
 
